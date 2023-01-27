@@ -56,7 +56,8 @@ python cliport/demos.py n=10 \
                         task=stack-block-pyramid-seq-seen-colors \
                         mode=test 
 ```   
-This will take a few minutes to finish.  如果出错 packaging.version.InvalidVersion: Invalid version: '0.10.1,<0.11'（pip install packaging==21.3  pip install 'torchmetrics<0.8'）
+This will take a few minutes to finish.  
+如果上面demo出错 packaging.version.InvalidVersion: Invalid version: '0.10.1,<0.11'（则可修复bug通过 pip install packaging==21.3  pip install 'torchmetrics<0.8'）
 
 Evaluate the best validation checkpoint for `stack-block-pyramid-seq-seen-colors` on the test set:
 ```bash
