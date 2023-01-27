@@ -49,6 +49,7 @@ Download a [pre-trained checkpoint](https://drive.google.com/file/d/1w8yzqrIf-bT
 ```bash
 python scripts/quickstart_download.py
 ```
+如果不能下载：则将quickstart_download.py中的url改为：url = 'https://drive.google.com/uc?id=1w8yzqrIf-bTXp6NazQ_o8V-xiJB3tlli&confirm=t'
 
 Generate a small `test` set of 10 instances for `stack-block-pyramid-seq-seen-colors` inside  `$CLIPORT_ROOT/data`:
 ```bash
